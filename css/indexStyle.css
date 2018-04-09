@@ -111,7 +111,7 @@
 }
 
 .megaContainer {
-    background-color: lightgray;
+    background-color: #B5B5B5;
     padding: 70px 0;
 }
 
@@ -167,7 +167,8 @@
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: 10px auto;
 }
 
 .celular>img,
@@ -204,7 +205,7 @@
 }
 
 li>a:hover {
-    color: lightgrey;
+    color: #B5B5B5;
 }
 
 .boxReward>label {
@@ -223,4 +224,17 @@ li>a:hover {
 
 .leagueDesc>label {
     font-weight: bold;
+}
+
+.footerBox > a, .footerBox > label {
+    color: #979797;
+    font-weight: 900;
+}
+
+.footerBox > a:hover {
+    color: #B5B5B5;
+}
+
+.footerBox > a > img:hover {
+    opacity: 0.5;
 }
